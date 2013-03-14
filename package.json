@@ -1,0 +1,47 @@
+{
+  "name": "spidernest",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": "Pete Clark",
+    "email": "pclarkgithub@gmail.com"
+  },
+  "contributors": [],
+  "dependencies": {
+    "optimist": "~0.3.5",
+    "async": "= 0.1.22",
+    "express": "~3.0.6",
+    "colors": "~0.6.0-1",
+    "crawler": "~0.2.4",
+    "cheerio": "~0.10.8",
+    "mkdirp": "~0.3.5",
+    "cloneextend": "0.0.3",
+    "socket.io": "~0.9.13",
+    "socket.io-client": "~0.9.11"
+  },
+  "main": "./lib/spidernest.js",
+  "bin": {
+    "spidernest": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "spidernest",
+    "crawler",
+    "spider"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peteclark82/node-spidernest"
+  },
+  "bugs": {
+    "web": "https://github.com/peteclark82/node-spidernest/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/peteclark82/node-spidernest/LICENSE"
+    }
+  ]
+}
